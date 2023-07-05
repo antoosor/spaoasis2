@@ -1,0 +1,56 @@
+:root {
+    background-color: #EDEDE9;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+#font-nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #BB8C71;
+}
+
+.carousel-item {
+    max-height: 39rem;
+
+}
+
+#Primer_parrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #BB8C71;
+}
+
+
+.beneficio_fila p {
+    color: #BB8C71;
+    text-align: center;
+}
+
+.beneficio_fila h3 {
+    color: #BB8C71;
+    text-align: center;
+}
+
+
+.beneficios {
+    border-top: solid #bb8c7127 1px !important;
+    color: #BB8C71;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+.div_images_beneficios{
+
+    text-align: center;
+ 
+}
+
+/*Media queries*/
+@media (max-width:760px) {
+    .beneficio_fila {
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
