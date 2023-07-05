@@ -11,7 +11,14 @@
 }
 
 .carousel-item {
-    max-height: 39rem;
+    max-height: 39em;
+
+
+}
+.img_carrusel{
+object-fit: initial !important;
+
+
 
 }
 
@@ -44,6 +51,25 @@
 
     text-align: center;
  
+}
+.local{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+.mapa{
+    background:url(./images/mapa/mapa.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+ background-position: center;
+
+}
+.ubicacion_ancla{
+    color: #BB8C71;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /*Media queries*/
